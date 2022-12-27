@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="9b79bbdfa2dc724ca520f8ea5f01bc7c.gif" />
+    <None Remove="background.jpg" />
+    <None Remove="free-png.ru-348.png" />
+    <None Remove="free-png.ru-470.png" />
+    <None Remove="GrippingNimbleBarebirdbat-size_restricted.gif" />
+    <None Remove="igr.png" />
+    <None Remove="music.wav" />
+    <None Remove="podarok.png" />
+    <None Remove="pr-anime-7.gif" />
+    <None Remove="s-nastypayychim-novym-godom6.gif" />
+    <None Remove="snez.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Include="music.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MiNET" Version="1.0.2304" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="9b79bbdfa2dc724ca520f8ea5f01bc7c.gif" />
+    <Resource Include="background.jpg" />
+    <Resource Include="free-png.ru-348.png" />
+    <Resource Include="free-png.ru-470.png" />
+    <Resource Include="GrippingNimbleBarebirdbat-size_restricted.gif" />
+    <Resource Include="igr.png" />
+    <Resource Include="podarok.png" />
+    <Resource Include="pr-anime-7.gif" />
+    <Resource Include="s-nastypayychim-novym-godom6.gif" />
+    <Resource Include="snez.png" />
+  </ItemGroup>
+
+</Project>
